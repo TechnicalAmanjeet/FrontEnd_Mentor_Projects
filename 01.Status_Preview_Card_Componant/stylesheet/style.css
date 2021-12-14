@@ -83,6 +83,7 @@ header{
 .Header-ontainer .Right_section{
     width: 50%;
     background: linear-gradient(0deg , rgba(127, 67, 163,0.3),rgba(127, 67, 163,0.3)),url(./../images/image-header-desktop.jpg) no-repeat center/cover;
+    border-radius: 10px;
 }
 
 
@@ -130,7 +131,10 @@ header{
         background: linear-gradient(0deg , rgba(127, 67, 163,0.3),rgba(127, 67, 163,0.3)),url(./../images/image-header-mobile.jpg) center/cover no-repeat;
         width: 100%;
         height: 400px;
+        border-radius: 10px;
     }
+
+
 
     .Header-ontainer .Left_section{
         width: 80%;
@@ -140,6 +144,8 @@ header{
         justify-content: center;
         text-align: center;
     }
+
+
 
     .Header-ontainer .Left_section h1:nth-child(1){
         /* color: red; */
