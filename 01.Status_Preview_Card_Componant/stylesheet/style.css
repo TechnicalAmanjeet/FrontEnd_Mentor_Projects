@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
     font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -16,6 +16,77 @@ body{
     height: 100vh;
     position: relative;
 }
+
+
+/* code of header main section starts from here  */
+
+header{
+    height: 94vh;
+    background: #0A0C1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* code of header main section ends from here  */
+
+.Header-ontainer{
+    width: 80vw;
+    height: 70vh;
+    background: #1C1938;
+    display: flex;
+    border-radius: 10px;
+}
+
+.Header-ontainer .Left_section{
+    width: 50%;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-ontainer .Left_section h1 span{
+    /* font-size: 3vw; */
+    color: #A45ED5;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 1000;
+}
+
+.Header-ontainer .Left_section p{
+    color: #4B4962;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.Header-ontainer .Left_section .Companies-data{
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    /* align-items: flex-start ; */
+    /* background-color: blue; */
+    text-align: start;
+    /* text-align: center; */
+    /* line-height: 20px; */
+}
+
+.Header-ontainer .Left_section .Companies-data p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 0;
+    margin-top: 10px;
+}
+
+.Header-ontainer .Right_section{
+    width: 50%;
+    background: linear-gradient(0deg , rgba(127, 67, 163,0.3),rgba(127, 67, 163,0.3)),url(./../images/image-header-desktop.jpg);
+}
+
+
+
+
+
 
 /* inbuilt code by front end mentor */
 .attribution { 
@@ -35,3 +106,6 @@ body{
 
 .attribution a { 
     color: hsl(228, 73%, 83%); }  
+
+
+
