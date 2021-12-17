@@ -34,9 +34,31 @@ header .Container{
     border-radius: 10px;
 }
 
-header .Container img.Container_header_poster{
-    width: 100%;
+header .Container .Container_header_poster{
+    width: 250px;
+    height: 250px;
     /* height: 40%; */
+    background-color: blue;
+    cursor: pointer;
+    background: url(./../images/image-equilibrium.jpg) center/cover no-repeat;
+}
+
+header .Container .Container_header_poster .View_icon{
+    width: 250px;
+    height: 250px;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+header .Container .Container_header_poster:hover{
+    background: linear-gradient(rgba(47, 224, 237,0.6),rgba(47, 224, 237,0.6)) ,url(./../images/image-equilibrium.jpg) center/cover no-repeat; 
+}
+
+header .Container .Container_header_poster:hover .View_icon{
+    display: flex;
 }
 
 
@@ -44,6 +66,11 @@ header .Container h1{
     margin: 16px 0;
     font-size: 22px;
     color: whitesmoke;
+}
+
+header .Container h1:hover{
+    color: #0DE3E4;
+    cursor: pointer;
 }
 
 header .Container p{
@@ -79,9 +106,9 @@ header .Container .Price_ehorium .Right{
 }
 
 
-hr{
+/* hr{
     color: #2e3644;
-}
+} */
 
 .Container .User_area{
     margin-top: 10px;
@@ -106,6 +133,10 @@ hr{
 
 .Container .User_area p span{
     color: whitesmoke;
+    cursor: pointer;
+}
+.Container .User_area p span:hover{
+    color: #0DE3E4;
 }
 
 
