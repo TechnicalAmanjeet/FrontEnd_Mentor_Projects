@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ******** custom coding of css starts from here ********  */
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+} */
+
+
+header{
+    width: 100vw;
+    height: 556px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .Container{
+    width: 780px;
+    height: 350px;
+    display: flex;
+}
+
+header .Container .Sub_container{
+    /* background: gray; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+header .Container .Sub_container img{
+    width: 60px;
+}
+
+header .Container .Sub_container a{
+    width: 90px;
+    /* background-color: red; */
+    padding: 10px 22px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    /* color: transparent; */
+}
+
+
+.Container .Fst{
+    background: #E28525;
+    /* border-radius: 10px; */
+    /* border-top-left-radius: 10px; */
+    /* border-bottom-left-radius: 10px; */
+}
+
+.Container .Fst a{
+    background-color: whitesmoke;
+    color: #E28525;
+}
+.Container .Fst a:hover{
+    background-color: #E28525;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+
+.Container .Snd{
+    background: #016972;
+}
+
+.Container .Snd a{
+    background-color: whitesmoke;
+    color: #016972;
+}
+.Container .Snd a:hover{
+    background-color: #016972;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+
+.Container .Thrd{
+    background: #00403F;
+    /* border-top-right-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
+}
+
+.Container .Thrd a{
+    background-color: whitesmoke;
+    color: #00403F;
+}
+.Container .Thrd a:hover{
+    background-color: #00403F;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+
+
+
+/* inbuilt code by front end mentor */
+.attribution { 
+    width: 100%;
+    height: 44px;
+    font-size: 11px; 
+    text-align: center;
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* word-spacing: .2vw; */
+}
+
+.attribution a { 
+    color: hsl(228, 73%, 83%); }  
+
+
+/* code to make web page responsive  */
+@media(max-width:800px){
+    header{
+        /* background-color: blue; */
+        /* flex-direction: column; */
+        height: 1300px;
+    }
+
+    header .Container{
+        flex-direction: column;
+        width: 250px;
+        height: 1150px;
+    }
+
+    header .Container .Sub_container{
+        /* flex-direction: column; */
+        height: 350px;
+    }
+
+}
