@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* color: whitesmoke; */
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ******** custom coding of css starts from here ********  */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.Container{
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./../images/pattern-background-desktop.svg) center/cover no-repeat fixed;
+    /* opacity: 0.5; */
+}
+
+
+
+
+/* inbuilt code by front end mentor */
+.attribution { 
+    width: 100%;
+    height: 44px;
+    font-size: 11px; 
+    text-align: center;
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* word-spacing: .2vw; */
+}
+
+.attribution a { 
+    color: hsl(228, 73%, 83%); }  
