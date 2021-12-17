@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* color: whitesmoke; */
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ******** custom coding of css starts from here ********  */
+
+body{
+    width: 100vw;
+    /* height: 100vh; */
+    position: relative;
+    background: #0D1A2D;
+}
+
+header{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+header .Container{
+    width: 250px;
+    height: 450px;
+    padding: 20px;
+    background: #15273F;
+    border-radius: 10px;
+}
+
+header .Container img.Container_header_poster{
+    width: 100%;
+    /* height: 40%; */
+}
+
+
+header .Container h1{
+    margin: 16px 0;
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+header .Container p{
+    color: #86A9D5;
+    margin-bottom: 16px;
+}
+
+header .Container .Price_ehorium{
+    /* width: 90%; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+header .Container .Price_ehorium .Left{
+    display: flex;
+    width: 32%;
+    align-items: center;
+    justify-content: space-between;
+    color: #0DE3E4;
+}
+
+
+
+header .Container .Price_ehorium .Right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+    color: #86A9D5;
+}
+
+
+hr{
+    color: #2e3644;
+}
+
+.Container .User_area{
+    margin-top: 10px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    /* background-color: whitesmoke; */
+    align-items: center;
+}
+
+.Container .User_area img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+.Container .User_area p{
+    /* width: ; */
+    font-size: 13px;
+    color: #86A9D5;
+}
+
+.Container .User_area p span{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+/* inbuilt code by front end mentor */
+.attribution { 
+    width: 100%;
+    height: 44px;
+    font-size: 11px; 
+    text-align: center;
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* word-spacing: .2vw; */
+}
+
+.attribution a { 
+    color: hsl(228, 73%, 83%); }  
