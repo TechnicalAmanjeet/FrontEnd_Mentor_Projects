@@ -13,20 +13,151 @@
 body{
     width: 100vw;
     height: 100vh;
-    position: relative;
+    background: linear-gradient(rgba(215, 226, 255,0.8),rgba(215, 226, 255,0.7)),url(./../images/pattern-background-desktop.svg) center/cover no-repeat fixed;
+    /* position: relative; */
 }
 
-.Container{
+.header{
     width: 100%;
-    height: 93vh;
+    height: 93%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(./../images/pattern-background-desktop.svg) center/cover no-repeat fixed;
-    /* opacity: 0.5; */
+}
+
+.Container{
+    width: 375px;
+    background-color: #FFFFFF;
+    /* height: 100%; */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Container .Link{
+    width: 80%;
+    margin: auto;
+}
+
+.Container .Background_img{
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    /* margin-top: 2px; */
+    width: 375px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.Container h3{
+    font-weight: 1000;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.Container p{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.Container .Audio_charge_plan{
+    width: 88%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F9FE;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.Container .Audio_charge_plan .Left{
+    /* width: 50%; */
+    width: 56%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Container .Audio_charge_plan .Left h4{
+    margin-bottom: 4px;
+}
+
+.Container .Audio_charge_plan .Left h5{
+    color: rgb(143, 143, 185);
+}
+
+.Container .Audio_charge_plan .Right a{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bolder;
+}
+
+.Container .Audio_charge_plan .Right a:hover{
+    color: rgb(102, 102, 177);
+}
+
+.Container button{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    /* box-shadow: 0px 2px 20px  10px rgb(204, 198, 198); */
+}
+
+.Container button:hover{
+    background-color: rgb(116, 116, 241);
+}
+
+.Container button a{
+    display: block;
+    color: whitesmoke;
+    border-bottom: 55px;
+    font-weight: bolder;
+}
+
+.Container .Cancel_order{
+    display: inline-block;
+    margin: 15px 0 30px 0;
+    font-weight: bolder;
+    color: blue;
+}
+
+.Container .Cancel_order:hover{
+    color: black;
 }
 
 
+@media(max-width:400px){
+    .header{
+        /* background-color: blue; */
+        width: 100%;
+    }
+
+    .Container{
+        width: 80%;
+    }
+
+    .Container .Background_img{
+        width: 100%;
+    }
+
+    .Container .Audio_charge_plan {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .Container .Audio_charge_plan .Left {
+        /* font-size: .9em; */
+        /* padding: 5px 4px; */
+        /* justify-content: space-between; */
+        width: 65%;
+    }
+
+    
+
+}
 
 
 /* inbuilt code by front end mentor */
