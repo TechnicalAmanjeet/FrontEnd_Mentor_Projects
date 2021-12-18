@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* color: whitesmoke; */
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ******** custom coding of css starts from here ********  */
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+} */
+
+header{
+    width: 100%;
+    height: 580px;
+    background: url(./../images/bg-pattern-top.svg) center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(url(./../images/bg-pattern-top.svg),url(./../images/bg-pattern-top.svg)); */
+
+    /* background:  url(./../images/bg-pattern-top.svg) bottom left no-repeat,url(./../images/bg-pattern-top.svg) bottom left no-repeat,url(./../images/bg-pattern-top.svg) bottom left no-repeat, url(./../images/bg-pattern-bottom.svg) top right no-repeat, url(./../images/bg-pattern-bottom.svg) top right no-repeat, url(./../images/bg-pattern-bottom.svg) top right no-repeat, url(./../images/bg-pattern-bottom.svg) top right no-repeat ; */
+
+    background: linear-gradient(35deg ,rgba(27, 161, 173,0.2),rgba(27, 161, 173,0.6));
+}
+
+header .Container{
+    width: 300px;
+    height: 350px;
+    background: #FFFFFF;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+}
+
+header .Container .Poster_img{
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    height: 140px;
+    background: url(./../images/bg-pattern-card.svg);
+}
+
+header .Container .Profile_pic{
+    border-radius: 100%;
+    border: 5px solid #FFFFFF;
+    position: absolute;
+    bottom: 160px;
+    right: 33%;
+}
+
+header .Container .User_data{
+    margin-top: 60px;
+}
+
+header .Container .User_data h3{
+    font-weight: bolder;
+}
+
+header .Container .User_data h3 span{
+    color: rgb(136, 128, 128);
+    font-size: 1.2em;
+}
+
+header .Container .User_data p{
+    color: rgb(150, 130, 130);
+    margin: 5px 0 12px 0;
+}
+
+header .Container .User_Numbers{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .Container .User_Numbers p{
+    color: gray;
+    margin-top: 3px;
+    font-size: .8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* inbuilt code by front end mentor */
+.attribution { 
+    width: 100%;
+    height: 44px;
+    font-size: 11px; 
+    text-align: center;
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* word-spacing: .2vw; */
+}
+
+.attribution a { 
+    color: hsl(228, 73%, 83%); }  
