@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* color: whitesmoke; */
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ******** custom coding of css starts from here ********  */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(./../images/bg-pattern-bottom-desktop.svg) bottom right no-repeat,url(./../images/bg-pattern-top-desktop.svg) top left no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+}
+
+
+header .Top{
+    /* background-color: gray; */
+    max-width: 1000px;
+    width: 96%;
+    /* margin: 60px auto;  */
+    display: flex;
+    justify-content: space-between;
+    /* line-height: 35px; */
+    /* background-color: blue; */
+}
+
+header .Top .Left{
+    width: 320px;
+    /* background-color: red; */
+}
+
+header .Top .Left h1{
+    color: #511F50;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+header .Top .Left h1 span{
+    font-size: 1.3em;
+}
+
+header .Top .Left p{
+    font-size: 0.8em;
+    margin-top: 5px;
+    line-height: 19px;
+}
+
+
+.Top .Right {
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    /* background-color: green; */
+}
+
+.Top .Right .Sm_box{
+    width: 360px;
+    background: #F8F2FA;
+    padding: 9px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.Top .Right .Sm_box1{
+    position: relative;
+    right: 60px;
+}
+
+.Top .Right .Sm_box2{
+    position: relative;
+    right: 30px;
+}
+
+.fas{
+    color: #E79D61;
+}
+
+header .Bottom{
+    display: flex;
+    max-width: 1000px;
+    width: 96%;
+    justify-content: space-between;
+}
+
+
+header .Bottom .Container {
+    width: 250px;
+    background-color: #511F50;
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+header .Bottom .Container .Profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .Bottom .Container .Profile img{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+}
+
+header .Bottom .Container .Profile .Verified_user{
+    color: #b861a2;
+    margin-top: 4px;
+}
+
+header .Bottom .Container .Profile_content{
+    /* color: black; */
+    font-size: 0.9em;
+}
+
+
+header .Bottom .Container_2{
+    position: relative;
+    top: 20px;
+}
+header .Bottom .Container_3{
+    position: relative;
+    top: 40px;
+}
+
+
+
+/* inbuilt code by front end mentor */
+.attribution { 
+    width: 100%;
+    height: 44px;
+    font-size: 11px; 
+    text-align: center;
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* word-spacing: .2vw; */
+}
+
+.attribution a { 
+    color: hsl(228, 73%, 83%); }  
+
+
+/* responsive code starts from here  */
+
+@media(max-width:985px){
+    header{
+        width: 360px;
+        /* width: 100vw; */
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin:  0 auto;
+        /* background-color: blue; */
+    }
+
+    header .Top{
+        width: 340px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0;
+        /* background-color: red; */
+    }
+    header .Top h1{
+        margin-bottom: 15px;
+    }
+
+    header .Top .Left{
+        margin-bottom: 30px;
+    }
+
+
+    header .Top .Right .Sm_box{
+        flex-direction: column;
+        align-items: center;
+        /* width: 100%; */
+        width: 80VW;
+        margin-bottom: 10px;
+    }
+
+    header .Top .Right .Sm_box1{
+        right: 0;
+    }
+    header .Top .Right .Sm_box2{
+        right: 0;
+    }
+
+    header .Top .Right p{
+        margin: 5px 0 0 0;
+    }
+
+    
+
+
+
+
+    header .Bottom {
+        /* width: 100%; */
+        /* width: 80VW; */
+        flex-direction: column;
+        align-items: center;
+}
+
+    .attribution {
+        margin-top: 50px;
+    }
+}
